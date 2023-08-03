@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--sırasız listeleme-->
+    <ul>
+        <li> pink</li>
+        <li> red</li>
+        <li> yellow</li>
+        <li> blue </li>
+    </ul>
+
+    <!--sıralı listeleme-->
+    <ol>
+        <li> pink</li>
+        <li> red</li>
+        <li> yellow</li>
+        <li> blue </li>
+    </ol>
+
+    <!--farklı simgelerle sıralamak icin style ekleyip istedigimiz sıralama seklini seceriz-->
+    <ul style="list-style: lower-greek;">
+        <li> pink</li>
+        <li> red</li>
+        <li> yellow</li>
+        <li> blue </li>
+    </ul>    
+
+    <!--sıralı listeler icin de bu islemi yapmak mümkün-->
+    <ol type="A">
+        <li> pink</li>
+        <li> red</li>
+        <li> yellow</li>
+        <li> blue </li>
+    </ol>
+    <!--sıralamayı istedigimiz yerden baslatabiliriz-->
+    <ol type="1" start="8">
+        <li> pink</li>
+        <li> red</li>
+        <li> yellow</li>
+        <li> blue </li>
+    </ol>
+
+    <!--liste icinde liste-->
+    <ol>
+        <li> pink</li>
+        <li> red</li>
+        <li> yellow
+            <ul>
+                <li> yellow.1</li>
+                <li> yellow.2</li>
+                <ul>
+                    <li>a</li>
+                    <li>b</li>
+                    <li>c</li>
+                </ul>
+                <li> yellow.3</li>
+            </ul>
+        </li>
+        <li> blue </li>
+    </ol>
+
+    <dl>
+        <dt>html 5</dt>
+        <dd>html'nin tarihcesi</dd>
+        <dd>html link ekleme</dd>
+        <dd>html resim ekleme</dd>
+        <dt>javascript</dt>
+        <dd>js tarihcesi</dd>
+    </dl>
+</body>
+</html>
